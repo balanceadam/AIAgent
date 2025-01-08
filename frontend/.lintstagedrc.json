@@ -1,0 +1,6 @@
+{
+  "**/*.{js,ts,jsx,tsx}": [
+    "eslint --cache --cache-location node_modules/.cache/e-project --no-error-on-unmatched-pattern",
+    "prettier --write"
+  ]
+}

@@ -1,0 +1,117 @@
+@import './var.css';
+@import './base.css';
+
+.button-create {
+  display: flex;
+  width: 300px;
+  height: 56px;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 80px;
+  background: #fff;
+  color: var(--ffffff, #1e1e22);
+
+  /* H6/Regular */
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 28px; /* 140% */
+  cursor: pointer;
+
+  span {
+    font-weight: 300;
+  }
+
+  .svg-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  &:hover {
+    background: #ededed;
+  }
+
+  &:active {
+    background: rgba(237, 237, 237, 0.75);
+  }
+}
+
+.n-notification-container {
+  .n-notification-wrapper {
+    backdrop-filter: blur(7.550000190734863px);
+    .n-notification {
+      display: flex;
+      width: 387px;
+      padding: 12px 16px;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      border-radius: 12px;
+      border: 1.5px solid var(--notification-border-color);
+      background: var(--BL-green-BG, rgba(0, 168, 120, 0.05));
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(7.550000190734863px);
+
+      .n-notification__avatar {
+        position: static;
+        width: 32px;
+        height: 32px;
+        flex-shrink: 0;
+      }
+
+      .n-notification-main {
+        margin-left: 0;
+        padding: 0;
+
+        .content-wrapper {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+
+          .content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+            flex: 1;
+
+            .title {
+              color: var(--notification-border-color);
+
+              /* Labels/L/Semibold */
+              font-family: Sora;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 20px; /* 125% */
+            }
+
+            .desc {
+              color: #fff;
+
+              /* Labels/S/Regular */
+              font-family: Sora;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 16px; /* 133.333% */
+            }
+          }
+
+          .action {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .n-spin {
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+/* @  */
+
+@font-face {
+  font-family: 'Sora';
+  src: url('@/assets/font/Sora-Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: 300;
+  font-family: Sora;
+}
+
+html {
+  background: #000;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-bg-black);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: Sora;
+  font-weight: 300;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+}

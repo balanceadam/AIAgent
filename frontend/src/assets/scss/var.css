@@ -1,0 +1,22 @@
+:root {
+  --color-bg-black: #000000;
+  --color-bg-red: #da4354;
+  --color-bg-red-lighter: rgba(218, 67, 84, 0.1);
+  --color-bg-orange: #e26f11;
+  --color-bg-orange-lighter: rgba(226, 111, 17, 0.1);
+  --color-bg-blue: #11dbe2;
+  --color-bg-blue-lighter: rgba(17, 219, 226, 0.1);
+  --color-bg-blue-thick: #022daf;
+  --color-bg-blue-thick-lighter: rgba(2, 45, 175, 0.1);
+  --color-bg-yellow: #c78312;
+  --color-bg-yellow-lighter: rgba(199, 131, 18, 0.1);
+  --color-bg-purple: #a70bad;
+  --color-bg-purple-lighter: rgba(167, 11, 189, 0.1);
+  --color-bg-green: #00a878;
+  --color-bg-green-lighter: rgba(0, 168, 120, 0.1);
+  --color-bg-green-thin: #b6e853;
+  --color-bg-green-thin-lighter: rgba(182, 232, 83, 0.1);
+
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #888888;
+}
